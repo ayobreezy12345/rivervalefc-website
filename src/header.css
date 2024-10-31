@@ -1,0 +1,20 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(151, 34, 34);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    margin: 0; /* Ensure no margin */
+    padding: 0; /* Ensure no padding */
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0; /* Add some padding */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Change text color */
+}
